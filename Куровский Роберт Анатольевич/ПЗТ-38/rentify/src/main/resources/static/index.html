@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentify</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/assets/icons/favicon.ico">
+</head>
+
+<body>
+<!-- шапка -->
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li><a href="/">главная </a></li>
+                        <li class="dropdown">
+                            <a href="#">аренда </a>
+                            <ul class="submenu">
+                                <div class="left-submenu">
+                                    <h3>
+                                        На длительный срок
+                                    </h3>
+                                    <li><a href="/filter.html#filtered">Квартиры</a></li>
+                                    <li><a href="/filter.html#filtered">1-комнатные</a></li>
+                                    <li><a href="/filter.html#filtered">2-комнатные</a></li>
+                                    <li><a href="/filter.html#filtered">3-комнатные</a></li>
+                                    <li><a href="/filter.html#filtered">Комнаты</a></li>
+                                    <li><a href="/filter.html#filtered">Дома, коттеджи</a></li>
+                                    <h3>
+                                        Спрос
+                                    </h3>
+                                    <li><a href="/filter.html#filtered">Сниму квартиру</a></li>
+                                    <li><a href="/filter.html#filtered">Сниму комнату</a></li>
+                                    <li><a href="/filter.html#filtered">Сниму коттедж, дом</a></li>
+                                </div>
+                                <div class="right-submenu">
+                                    <h3>
+                                        Суточная
+                                    </h3>
+                                    <li><a href="/filter.html#filtered">Квартиры посуточно</a></li>
+                                    <li><a href="/filter.html#filtered">Комнаты посуточно</a></li>
+                                    <li><a href="/filter.html#filtered">Дома, коттеджи на сутки</a></li>
+                                    <li><a href="/filter.html#filtered">Дома для свадеб</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">продажа </a>
+
+                            <ul class="submenu">
+                                <div class="left-submenu">
+                                    <h3> Квартиры </h3>
+                                    <li><a href="/filter.html#filtered">Квартиры</a></li>
+                                    <li><a href="/filter.html#filtered">Квартиры и новых домах</a></li>
+                                    <li><a href="/filter.html#filtered">Новостройки</a></li>
+                                    <li><a href="/filter.html#filtered">Комнаты</a></li>
+                                    <li><a href="/filter.html#filtered">Обмен квартир</a></li>
+                                    <li><a href="/filter.html#filtered">Квартиры с ремонтом</a></li>
+                                    <li><a href="/filter.html#filtered">Квартиры без отделки</a></li>
+                                    <h3>
+                                        Специальные предложения
+                                    </h3>
+                                    <li><a href="/filter.html#filtered">Зеленая Гавань</a></li>
+                                    <li><a href="/filter.html#filtered">Новая Боровая</a></li>
+                                    <h3>
+                                        Спрос
+                                    </h3>
+                                    <li><a href="/filter.html#filtered">Куплю квартиру</a></li>
+                                    <li><a href="/filter.html#filtered">Куплю комнату</a></li>
+                                </div>
+                                <div class="right-submenu">
+                                    <h3>
+                                        Загородная
+                                    </h3>
+                                    <li><a href="/filter.html#filtered">коттеджи, дома</a></li>
+                                    <li><a href="/filter.html#filtered">Участки</a></li>
+                                    <li><a href="/filter.html#filtered">Дома, коттеджи у озера</a></li>
+                                    <li><a href="/filter.html#filtered">коттеджные поселки</a></li>
+                                    <li><a href="/filter.html#filtered">Аукционы на участки</a></li>
+
+                                    <h3>
+                                        Спрос
+                                    </h3>
+                                    <li><a href="/filter.html#filtered">Куплю коттедж, дом</a></li>
+                                    <li><a href="/filter.html#filtered">Куплю замельный участок</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a href="#offers">выгодные предложения </a></li>
+                    </ul>
+                    <div class="logo">
+                        <a href="/">
+                            Rentify
+                        </a>
+                    </div>
+                    <ul class="right">
+                        <li>
+                            <a href="account.html" class="openModal">
+                                <span id="accountText">личный кабинет</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/account.html">
+                                избранных обьявлений
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="messagesBtn">
+                                сообщения
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="bars">
+                        <img src="/assets/icons/bars.svg" alt="">
+                    </div>
+                </div>
+            </div>
+<!-- разворот "аренда" -->
+            <div class="mobile-nav">
+                <ul>
+                    <li><a href="/">главная </a></li>
+                    <li class="dropdown">
+                        <a href="#">аренда </a>
+                        <ul class="submenu">
+                            <div class="left-submenu">
+                                <h3>
+                                    На длительный срок
+                                </h3>
+                                <li><a href="/filter.html#filtered">Квартиры</a></li>
+                                <li><a href="/filter.html#filtered">1-комнатные</a></li>
+                                <li><a href="/filter.html#filtered">2-комнатные</a></li>
+                                <li><a href="/filter.html#filtered">3-комнатные</a></li>
+                                <li><a href="/filter.html#filtered">Комнаты</a></li>
+                                <li><a href="/filter.html#filtered">Дома, коттеджи</a></li>
+                                <h3>
+                                    Спрос
+                                </h3>
+                                <li><a href="/filter.html#filtered">Сниму квартиру</a></li>
+                                <li><a href="/filter.html#filtered">Сниму комнату</a></li>
+                                <li><a href="/filter.html#filtered">Сниму коттедж, дом</a></li>
+                            </div>
+                            <div class="right-submenu">
+                                <h3>
+                                    Суточная
+                                </h3>
+                                <li><a href="/filter.html#filtered">Квартиры посуточно</a></li>
+                                <li><a href="/filter.html#filtered">Комнаты посуточно</a></li>
+                                <li><a href="/filter.html#filtered">Дома, коттеджи на сутки</a></li>
+                                <li><a href="/filter.html#filtered">Дома для свадеб</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">продажа </a>
+<!-- разворот "продажа" -->
+                        <ul class="submenu">
+                            <div class="left-submenu">
+                                <h3> Квартиры </h3>
+                                <li><a href="/filter.html#filtered">Квартиры</a></li>
+                                <li><a href="/filter.html#filtered">Квартиры и новых домах</a></li>
+                                <li><a href="/filter.html#filtered">Новостройки</a></li>
+                                <li><a href="/filter.html#filtered">Комнаты</a></li>
+                                <li><a href="/filter.html#filtered">Обмен квартир</a></li>
+                                <li><a href="/filter.html#filtered">Квартиры с ремонтом</a></li>
+                                <li><a href="/filter.html#filtered">Квартиры без отделки</a></li>
+                                <h3>
+                                    Специальные предложения
+                                </h3>
+                                <li><a href="/filter.html#filtered">Зеленая Гавань</a></li>
+                                <li><a href="/filter.html#filtered">Новая Боровая</a></li>
+                                <h3>
+                                    Спрос
+                                </h3>
+                                <li><a href="/filter.html#filtered">Куплю квартиру</a></li>
+                                <li><a href="/filter.html#filtered">Куплю комнату</a></li>
+                            </div>
+                            <div class="right-submenu">
+                                <h3>
+                                    Загородная
+                                </h3>
+                                <li><a href="/filter.html#filtered">коттеджи, дома</a></li>
+                                <li><a href="/filter.html#filtered">Участки</a></li>
+                                <li><a href="/filter.html#filtered">Дома, коттеджи у озера</a></li>
+                                <li><a href="/filter.html#filtered">коттеджные поселки</a></li>
+                                <li><a href="/filter.html#filtered">Аукционы на участки</a></li>
+
+                                <h3>
+                                    Спрос
+                                </h3>
+                                <li><a href="/filter.html#filtered">Куплю коттедж, дом</a></li>
+                                <li><a href="/filter.html#filtered">Куплю замельный участок</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><a href="/index.html#offers" class="offers-btn">выгодные предложения </a></li>
+                </ul>
+<!-- правая часть шапки -->
+                <ul class="right">
+                    <li>
+                        <a href="account.html" id="openModal">
+                            <span id="accountText">личный кабинет</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/account.html">
+                            избранных обьявлений
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="messagesBtn">
+                            сообщения
+                        </a>
+                    </li>
+                </ul>
+
+                <button>
+                    <img src="/assets/icons/close.svg" alt="">
+                </button>
+            </div>
+        </nav>
+
+        <div class="header-main">
+            <h1>Добро пожаловать <br> на <span>Rentify</span></h1>
+            <p>Быстрая фильтрация</p>
+            <p>Современный и удобный интерфейс</p>
+            <p class="lst">Поддержка 24/7</p>
+<!-- фильтрация -->
+            <div class="filter-box">
+                <label>Регион: <input type="text" placeholder="Введите регион"></label>
+                <label>Цена: <input type="text" placeholder="От - До"></label>
+                <label>Количество комнат: <input type="number" min="1" max="10"></label>
+                <label>Тип недвижимости:
+                    <select>
+                        <option>Квартира</option>
+                        <option>Дом</option>
+                        <option>Офис</option>
+                    </select>
+                </label>
+                <button type="submit">Искать</button>
+            </div>
+        </div>
+    </header>
+<!-- выгодные предложения -->
+    <section>
+        <div class="container">
+            <h2 class="title" id="offers">Выгодные предложения</h2>
+            <div class="cards row">
+                <div class="card">
+                    <img src="/assets/images/h31.png" alt="Объявление 1">
+                    <h3>Квартира в центре</h3>
+                    <p>Цена: 50000₽/месяц</p>
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h32.png" alt="Объявление 1">
+                    <h3>Дом у моря</h3>
+                    <p>Цена: 300000₽</p>
+
+
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h33.png" alt="Объявление 1">
+                    <h3>Офис в бизнес-центре</h3>
+                    <p>Цена: 100000₽/месяц</p>
+
+
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h34.png" alt="Объявление 1">
+                    <h3>Офис в бизнес-центре</h3>
+                    <p>Цена: 100000₽/месяц</p>
+
+
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h35.png" alt="Объявление 1">
+                    <h3>Офис в бизнес-центре</h3>
+                    <p>Цена: 100000₽/месяц</p>
+
+
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h31.png" alt="Объявление 1">
+                    <h3>Квартира в центре</h3>
+                    <p>Цена: 50000₽/месяц</p>
+
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h32.png" alt="Объявление 1">
+                    <h3>Дом у моря</h3>
+                    <p>Цена: 300000₽</p>
+
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h33.png" alt="Объявление 1">
+                    <h3>Офис в бизнес-центре</h3>
+                    <p>Цена: 100000₽/месяц</p>
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h34.png" alt="Объявление 1">
+                    <h3>Офис в бизнес-центре</h3>
+                    <p>Цена: 100000₽/месяц</p>
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h35.png" alt="Объявление 1">
+                    <h3>Офис в бизнес-центре</h3>
+                    <p>Цена: 100000₽/месяц</p>
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h31.png" alt="Объявление 1">
+                    <h3>Квартира в центре</h3>
+                    <p>Цена: 50000₽/месяц</p>
+
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h32.png" alt="Объявление 1">
+                    <h3>Дом у моря</h3>
+                    <p>Цена: 300000₽</p>
+
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h33.png" alt="Объявление 1">
+                    <h3>Офис в бизнес-центре</h3>
+                    <p>Цена: 100000₽/месяц</p>
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h34.png" alt="Объявление 1">
+                    <h3>Офис в бизнес-центре</h3>
+                    <p>Цена: 100000₽/месяц</p>
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/h35.png" alt="Объявление 1">
+                    <h3>Офис в бизнес-центре</h3>
+                    <p>Цена: 100000₽/месяц</p>
+                    <h5>
+                        <img src="/assets/icons/location.svg" alt="">
+                        42 Avenue O, Brooklyn
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="backToTop">
+        <img src="/assets/icons/up-town.svg" alt="">
+    </button>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="/">Rentify</a>
+                </div>
+                <div class="socials">
+                    <a href="/">
+                        <img src="/assets/icons/facebook.svg" alt=""></a>
+                    <a href="/">
+                        <img src="/assets/icons/twitter.svg" alt=""></a>
+                    <a href="/">
+                        <img src="/assets/icons/instagram.svg" alt=""></a>
+                    <a href="/">
+                        <img src="/assets/icons/linkedin.svg" alt=""></a>
+                </div>
+                <div class="contacts">
+                    <a href="tel:+7 123 456 7890">+375297522935</a>
+                    <a href="mail">robertkurovsci23@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Добавляем модальное окно сообщений -->
+    <div id="messagesModal" class="messages-section modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Сообщения</h2>
+            
+            <div class="messages-container">
+                <div class="new-message">
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <label for="messageName">Ваше имя</label>
+                            <input type="text" id="messageName" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="messageSubject">Тема</label>
+                            <input type="text" id="messageSubject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="messageText">Текст сообщения</label>
+                            <textarea id="messageText" required></textarea>
+                        </div>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+                
+                <div class="messages-history">
+                    <h3>История сообщений</h3>
+                    <div id="messagesList"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
